@@ -6,17 +6,17 @@ For example, if the text file contains:
 
 php
 Copy code
-<a>SomeText<b><c>MoreText<d>
+<div>SomeText</div><div>MoreText<d>
 The script will change it to:
 
 php
 Copy code
-<a>
+<div>
 SomeText
-<b>
-<c>
+</div>
+<div>
 MoreText
-<d>
+</div>
 Requirements
 Python 3.x
 Text files in the same directory as the script
