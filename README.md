@@ -1,5 +1,3 @@
-Text File Parser
-Description
 This Python script is designed to read .txt files within the same directory and modify their content. It specifically looks for the characters > and < and makes sure that they are surrounded by newlines. The script overwrites the existing .txt files with the modified content.
 
 For example, if the text file contains:
